@@ -10,4 +10,5 @@ type PgConfig struct {
 	MaxOpenConnections      int    // MaxOpenConnections defines the maximum number of open connections allowed to the database.
 	ConnectionMaxLifetimeMS int    // ConnectionMaxLifetimeMS sets the maximum time (in milliseconds) a connection can be reused.
 	LogMode                 bool   // LogMode enables or disables SQL query logging (true for enabled).
+	SSLMode                 string // SSLMode enables or disables SSL connection (e.g., "disable").
 }

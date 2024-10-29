@@ -48,8 +48,8 @@ func Open(cfg *PgConfig) (db *gorm.DB, err error) {
 			password=%s
 			dbname=%s
 			search_path=%s
-			sslmode=disable
-		`, cfg.Host, cfg.User, cfg.Password, cfg.DBName, cfg.Schema))
+			sslmode=%s
+		`, cfg.Host, cfg.User, cfg.Password, cfg.DBName, cfg.Schema, cfg.SSLMode))
 
 		// Log and retry on failure
 		if err != nil {
