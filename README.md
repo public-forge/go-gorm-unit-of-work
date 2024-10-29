@@ -1,5 +1,5 @@
-[![Lint and Format](https://github.com/public-forge/gorm-unit-of-work/actions/workflows/lint.yml/badge.svg)](https://github.com/public-forge/gorm-unit-of-work/actions/workflows/lint.yml)
-[![Go Report Card](https://goreportcard.com/badge/github.com/public-forge/gorm-unit-of-work)](https://goreportcard.com/report/github.com/public-forge/gorm-unit-of-work)
+[![Lint and Format](https://github.com/public-forge/go-gorm-unit-of-work/actions/workflows/lint.yml/badge.svg)](https://github.com/public-forge/go-gorm-unit-of-work/actions/workflows/lint.yml)
+[![Go Report Card](https://goreportcard.com/badge/github.com/public-forge/go-gorm-unit-of-work)](https://goreportcard.com/report/github.com/public-forge/go-gorm-unit-of-work)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ### README for `postgres` Package
