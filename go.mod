@@ -4,6 +4,7 @@ go 1.22
 
 require (
 	github.com/DATA-DOG/go-sqlmock v1.5.2
+	github.com/golang/mock v1.6.0
 	github.com/google/uuid v1.6.0
 	github.com/jinzhu/gorm v1.9.16
 	github.com/lib/pq v1.10.9
@@ -13,7 +14,6 @@ require (
 
 require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
-	github.com/golang/mock v1.6.0 // indirect
 	github.com/jinzhu/inflection v1.0.0 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	go.uber.org/multierr v1.10.0 // indirect
